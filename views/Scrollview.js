@@ -587,6 +587,7 @@ define(function(require, exports, module) {
                 period: options.edgePeriod,
                 dampingRatio: options.edgeDamp
             });
+        }
 
         // sync sub-component
         if (options.rails || options.direction !== undefined || options.syncScale !== undefined) {
