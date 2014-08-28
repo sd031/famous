@@ -614,6 +614,7 @@ define(function(require, exports, module) {
             var previousSpringPosition = (currentPosition < TOLERANCE) ? -previousNodeSize : 0;
             _setSpring.call(this, previousSpringPosition, SpringStates.PAGE);
             _shiftOrigin.call(this, previousNodeSize);
+        }
     }
 
     /**
